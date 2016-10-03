@@ -7,8 +7,9 @@ Contents:
 
 .. toctree::
    :maxdepth: 2
+   
    why.rst
-   scheme.rst
+   schema.rst
 
 
 
