@@ -15,12 +15,12 @@ The namespace is the value used in the API such as "login" or "media". This is w
 * `schema.json`: the permissions must be `"experiments.namespace"`.
 * `install.rdf`: the id must be `"namespace@experiments.addons.mozilla.org"`.
 
-You can see an example of this in the `boilerplate example`_ where the namespace is "boilerplate".
+You can see an example of this in the boilerplate_ example where the namespace is "boilerplate".
 
 Using the boilerplate
 ---------------------
 
-The `boilerplate example`_ provides a simple example that you can download and use in whatever way you see fit.
+The boilerplate_ example provides a simple example that you can download and use in whatever way you see fit.
 
 To get the boilerplate example on Linux or OS X, run the following command:
 
@@ -48,4 +48,4 @@ Running
 
 Your experiment can be installed like any other add-on it's probably easiest through about:debugging.
 
-.. `boilerplate example`: https://github.com/web-ext-experiments/boilerplate-experiment
+.. _boilerplate: https://github.com/web-ext-experiments/boilerplate-experiment

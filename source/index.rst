@@ -12,6 +12,7 @@ Contents:
    how.rst
    policy.rst
    schema.rst
+   experiments/index.rst
 
 
 

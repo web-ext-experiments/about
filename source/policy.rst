@@ -7,11 +7,10 @@ Policy
 
 Experiments require Firefox 50 or greater to work.
 
-Anyone can write a WebExtension Experiment, there is no need to ask for permission from anyone to do so. A good place to start is the boilerplate_.
+Anyone can write a WebExtension Experiment, there is no need to ask for permission from anyone to do so.
 
 Currently Experiments can only be run on Firefox Nightly and Firefox Developer Edition. This is to prevent APIs that are generally seen to be experimental being run on release versions of Firefox.
 
 Currently to upload an Experiment to AMO_ and get it signed you must be a member of certain group of users at Mozilla.
 
-.. _boilerplate: https://github.com/web-ext-experiments/boilerplate-experiment
 .. _AMO: https://addons.mozilla.org
