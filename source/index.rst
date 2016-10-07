@@ -1,7 +1,7 @@
 Welcome to WebExtension Experiments
 ===================================
 
-This documentation covers WebExtension Experiments, a way to write new APIs for the WebExtension modules in Firefox.
+This documentation covers WebExtension Experiments, a way to write new APIs for the WebExtension modules in Firefox. Whilst this documentation covers WebExtension Experiments, a lot of this documentation might be relevant for writing WebExtension APIs in mozilla-central.
 
 Contents:
 
@@ -9,6 +9,8 @@ Contents:
    :maxdepth: 2
    
    why.rst
+   how.rst
+   policy.rst
    schema.rst
 
 

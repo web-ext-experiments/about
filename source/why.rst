@@ -18,16 +18,15 @@ Extensions allows you to:
 How do they work?
 ~~~~~~~~~~~~~~~~~
 
-Experiments are a bootstrapped add-on. They have a special API type `256` that tells Firefox that they are an experiment. The experiment loads the `schema.json` into Firefox and then the apis are available.
-
-TODO: get a more detailed summary.
+Experiments are a bootstrapped add-on. They have a special type_ `256` that tells Firefox that they are an experiment. The experiment loads the `schema.json` into Firefox and then the apis are available.
 
 Where do they work?
 ~~~~~~~~~~~~~~~~~~~
 
 Currently experiments can only be loaded in Firefox Nightly and Firefox Developer Edition. 
 
-Once we are more comfortable with some of the flows (e.g: testing) then perhaps these can go out to Beta or Release users. 
+Please see the :ref:policy page.
 
 .. _Bugzilla: https://bugzilla.mozilla.org
 .. _mozilla-central: https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Introduction
+.. _type: https://developer.mozilla.org/en-US/Add-ons/Install_Manifests#type
