@@ -21,6 +21,8 @@ Contents:
    policy.rst
    schema.rst
 
+This documentation lives on `github <https://github.com/web-ext-experiments/about>`_, pull requests and issues are welcome.
+
 Indices and tables
 ==================
 
