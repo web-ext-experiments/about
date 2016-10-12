@@ -1,9 +1,9 @@
 Welcome to WebExtension Experiments
 ===================================
 
-This documentation covers WebExtension Experiments, a way to write new APIs for the WebExtension modules in Firefox. Whilst this documentation covers WebExtension Experiments, a lot of this documentation might be relevant for writing WebExtension APIs in mozilla-central.
+This documentation covers WebExtension Experiments, a way to write new APIs for Firefox add-ons. Whilst this documentation covers WebExtension Experiments, a lot of this documentation might be relevant for writing WebExtension APIs in mozilla-central.
 
-For a list of valid experiments please see:
+Existing experiments:
 
 .. toctree::
    :maxdepth: 2
@@ -20,9 +20,6 @@ Contents:
    uplifting.rst
    policy.rst
    schema.rst
-
-
-
 
 Indices and tables
 ==================

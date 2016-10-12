@@ -1,27 +1,17 @@
 Why?
 ====
 
-As we move to a world of WebExtensions for add-ons we need to be able to provide more APIs than ever before to our users. We need to be able to go beyond what chrome provides to allow more flexibility and customisation than other browsers.
+Experiments are a way to allow the development of new APIs for WebExtensions, they allow WebExtension APIs to be written in an another extension. They can be used to prototype APIs for landing in Firefox, or just creating APIs for use on Nightly or Developer Edition.
 
-At the same time, we need to be able to move faster than the Firefox train and allow developers to be able to quickly develop and experiment with APIs. Those APIs would land in an add-on and as APIs become stable and supported they could be moved down into mozilla-central and move from "experimental" to "stable".
+.. note:: If you want to land an API in Firefox and are familiar with building mozilla-central_, working with Bugzilla_ and try server and other Mozilla infrastructure, then you might find that committing the code straight to mozilla-central is a better choice.
 
-To repeat, this is the overall goal: be an area to allow developers to develop and experiment with APIs.
+Overview
+--------
 
-Key points:
+An experiment is:
 
-* We would land experimental APIs in an add-on outside of Firefox.
-* All add-ons using WebExtensions Experiments would be dependent upon the WebExtensions Experiment.
-* The use of WebExtensions Experiments would be declared in the manifest through a permission.
-* APIs would be available in the browser namespace, and not in chrome.
-* Breaking changes could occur to the WebExtensions Experiments. But would be discouraged.
-
-This is not the only way to write a WebExtension API, it is just one of them. 
-
-If you are familiar with building mozilla-central_, working with Bugzilla_ and try server and other Mozilla infrastructure, then you might find that committing the bug straight to mozilla-central is a better choice.
-
-Experiments if intended to provide another avenue and if you'd prefer to just go with adding in directly into mozilla-central, then please go file a Bugzilla_ bug and get started.
-
-If not, then keep reading.
+* An extension that contains the experiment code and exposes a WebExtensions API.
+* One more WebExtensions that use the experiment extension as a dependency.
 
 Extensions allows you to:
 
@@ -30,6 +20,14 @@ Extensions allows you to:
 * Then commit to (or get help committing to) mozilla-central_.
 
 Please note: before coding your Experiment you should know it's not always assumed that all Experiments will get added to Firefox, the goal is to judge each Experiment on its own merit and value.
+
+Some key points:
+
+* Experimental APIs would be in an add-on.
+* All add-ons using the new API would be dependent upon the WebExtensions Experiments add-on.
+* The use of WebExtensions Experiments would be declared in the manifest through a permission.
+* APIs would be available in the browser namespace, and not in chrome.
+* Breaking changes could occur to the WebExtensions Experiments. But would be discouraged.
 
 How do they work?
 ~~~~~~~~~~~~~~~~~
