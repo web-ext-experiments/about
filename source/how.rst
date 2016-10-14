@@ -24,7 +24,7 @@ The `boilerplate`_ example provides a simple example that you can download and u
 
 To get the boilerplate example on Linux or OS X, run the following command:
 
-.. code::bash
+.. code-block:: bash
 
     curl -L https://github.com/web-ext-experiments/boilerplate-experiment/archive/master.tar.gz | tar zxf -
 
@@ -47,13 +47,13 @@ Once you have experiment installed, you can then create a WebExtension using the
 
 For example from `logins <https://github.com/web-ext-experiments/logins>`_:
 
-.. code:: json
+.. code-block:: json
 
     "permissions": ["experiments.logins"]
 
 This gives you permission to use the API. But the API might require more permissions, for example to actually use the `logins` API for all urls, you'll need to do the following:
 
-.. code:: json
+.. code-block:: json
 
     "permissions": ["experiments.logins", "logins", "<all_urls>"]
 
