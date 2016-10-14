@@ -20,7 +20,7 @@ You can see an example of this in the boilerplate_ example where the namespace i
 Using the boilerplate
 ---------------------
 
-The boilerplate_ example provides a simple example that you can download and use in whatever way you see fit.
+The `boilerplate`_ example provides a simple example that you can download and use in whatever way you see fit.
 
 To get the boilerplate example on Linux or OS X, run the following command:
 
@@ -30,15 +30,12 @@ To get the boilerplate example on Linux or OS X, run the following command:
 
 You will then be able to change the example to meet your needs.
 
-General hints
--------------
+Designing your API
+------------------
 
-APIs strive to be higher level than direct mappings onto underlying Firefox modules. There are a couple of reasons for this:
+You are free to do whatever you'd like to do in an experiment, but if you eventual goal is to uplift it into Firefox then you should probably read the :ref:`uplifting` and :ref:`new` documentation.
 
-* The underlying modules may change, in fact its more than likely that they will change in the future. We'd like to change the WebExtension APIs as little as possible because of the impact that has on add-on developers.
-* It would be really nice if other browsers accepted and implemented the Experiment so that you could use it in more than one browser.
-
-Running the experiment 
+Running the experiment
 ----------------------
 
 Your experiment can be installed like any other add-on it's probably easiest through about:debugging.
@@ -58,11 +55,6 @@ This gives you permission to use the API. But the API might require more permiss
 
 .. code:: json
 
-    "permissions": ["experiments.logins", "logins", "<all_urls>"]
-
-Please see the documentation for each experiment to find what permissions you need.
-
-.. _boilerplate: https://github.com/web-ext-experiments/boilerplate-experiment
     "permissions": ["experiments.logins", "logins", "<all_urls>"]
 
 Please see the documentation for each experiment to find what permissions you need.

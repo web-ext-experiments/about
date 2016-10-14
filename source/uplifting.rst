@@ -1,7 +1,7 @@
-.. _experimenting:
+.. _uplifting:
 
-Experimenting
-=============
+Uplifting
+=========
 
 Once you've got an experiment the hope is that it gets merged into Firefox and mozilla-central. But before that happens there's a few things that should happen.
 
