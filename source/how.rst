@@ -30,11 +30,6 @@ To get the boilerplate example on Linux or OS X, run the following command:
 
 You will then be able to change the example to meet your needs.
 
-Writing a schema
-----------------
-
-TODO: ..
-
 General hints
 -------------
 
@@ -63,6 +58,11 @@ This gives you permission to use the API. But the API might require more permiss
 
 .. code:: json
 
+    "permissions": ["experiments.logins", "logins", "<all_urls>"]
+
+Please see the documentation for each experiment to find what permissions you need.
+
+.. _boilerplate: https://github.com/web-ext-experiments/boilerplate-experiment
     "permissions": ["experiments.logins", "logins", "<all_urls>"]
 
 Please see the documentation for each experiment to find what permissions you need.

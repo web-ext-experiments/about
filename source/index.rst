@@ -18,6 +18,7 @@ Contents:
    why.rst
    how.rst
    uplifting.rst
+   new.rst
    policy.rst
    schema.rst
 

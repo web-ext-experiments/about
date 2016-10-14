@@ -21,7 +21,7 @@ Add-ons using it:
 Hello world
 -----------
 
-A simple example of Hello World.
+A simple example of Hello World which logs to the console.
 
 Status: **example**
 
