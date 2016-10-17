@@ -8,10 +8,12 @@ Experiments are a way to allow the development of new APIs for WebExtensions, th
 Overview
 --------
 
-An experiment is:
+Terminology:
 
-* An extension that contains the experiment code and exposes a WebExtensions API.
-* One more WebExtensions that use the experiment extension as a dependency.
+:experiment: An experiment is an extension that contains the experiment code and exposes a WebExtensions API.
+:extension: Is a WebExtension that uses the experiment extension as a dependency.
+
+It should be noted both the `experiment` and the `extension` are both extensions. One is a legacy style bootstrapped `extension` and the other is WebExtension. We'll try and use the term `experiment` to distinguish between the two.
 
 Extensions allows you to:
 
@@ -37,7 +39,7 @@ Experiments are a bootstrapped add-on. They have a special type_ `256` that tell
 Where do they work?
 ~~~~~~~~~~~~~~~~~~~
 
-Currently experiments can only be loaded in Firefox Nightly and Firefox Developer Edition. 
+Currently experiments can only be loaded in Firefox Nightly and Firefox Developer Edition.
 
 Please see the :ref:`policy` page.
 
