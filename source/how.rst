@@ -35,10 +35,13 @@ Designing your API
 
 You are free to do whatever you'd like to do in an experiment, but if you eventual goal is to uplift it into Firefox then you should probably read the :ref:`uplifting` and :ref:`new` documentation.
 
-Running the experiment
+Installing the experiment
 ----------------------
 
-Your experiment can be installed like any other add-on it's probably easiest through about:debugging.
+Your experiment can be installed like any other add-on, for example:
+
+* If you make an `.xpi` out of the add-on, it can be installed from `about:addons` > `Install Add-on From File`.
+* If you want to load the add-on for development it can be temporarily from `about:debugging` > `Load Temporary Add-on`.
 
 Using the experiment
 --------------------
