@@ -84,3 +84,4 @@ if __name__=='__main__':
         addons = get_addons(path)
         output = generate_update(addons)
         open('{}/update.json'.format(path), 'w').write(output)
+        open('source/_static/{}/update.json'.format(path), 'w').write(output)

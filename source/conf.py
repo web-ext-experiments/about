@@ -283,5 +283,12 @@ texinfo_documents = [
 #texinfo_no_detailmenu = False
 
 html_context = {
-    'script_files': ['_static/js/docs.js']
+    'script_files': [
+        'https://media.readthedocs.org/javascript/jquery/jquery-2.0.3.min.js',
+        'https://media.readthedocs.org/javascript/jquery/jquery-migrate-1.2.1.min.js',
+        'https://media.readthedocs.org/javascript/underscore.js',
+        'https://media.readthedocs.org/javascript/doctools.js',
+        'https://media.readthedocs.org/javascript/readthedocs-doc-embed.js',
+        '_static/js/docs.js'
+    ]
 }

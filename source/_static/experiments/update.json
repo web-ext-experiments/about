@@ -1,0 +1,48 @@
+{
+  "addons": {
+    "logins@experiments.addons.mozilla.org": {
+      "updates": [
+        {
+          "update_hash": "sha512:cb2f7be6b3ea96420333d8aaf55d346076e2b5646ecce6c54676eb5cc43107c92e3a220dd31bbe2dd8c852ca7b34211df36a2d185208d2382bd165a4a4f02ac7", 
+          "version": "0.1", 
+          "update_link": "https://andymckay.github.io/about/experiments/logins/login-0.1.xpi", 
+          "_extra": {
+            "version": "0.1", 
+            "type": "256", 
+            "id": "logins@experiments.addons.mozilla.org", 
+            "signed": true, 
+            "name": "Experimental Logins API"
+          }
+        }
+      ]
+    }, 
+    "simple@experiments.addons.mozilla.org": {
+      "updates": [
+        {
+          "update_hash": "sha512:5d8d87afbe8e27ba8abea9dfb2787a57e870a730df7ee5a95f3b367bd13e328afa46bcf886321c52246177089d84862ad129ceb5e901a0d59284e3802ed89d8a", 
+          "version": "0.1", 
+          "update_link": "https://andymckay.github.io/about/experiments/hello/hello-0.1.xpi", 
+          "_extra": {
+            "version": "0.1", 
+            "type": "256", 
+            "id": "simple@experiments.addons.mozilla.org", 
+            "signed": false, 
+            "name": "Simple API"
+          }
+        }, 
+        {
+          "update_hash": "sha512:50ac7e4d5497b9a24b8af53f18eb052fde5baa1ee82deb1792f5217b4e9524db8bfdadb9207fa499568138a05bd9f8476889f3cc63018ed7ad9900ee14fede13", 
+          "version": "0.2", 
+          "update_link": "https://andymckay.github.io/about/experiments/hello/hello-0.2.xpi", 
+          "_extra": {
+            "version": "0.2", 
+            "type": "256", 
+            "id": "simple@experiments.addons.mozilla.org", 
+            "signed": false, 
+            "name": "Simple API"
+          }
+        }
+      ]
+    }
+  }
+}
