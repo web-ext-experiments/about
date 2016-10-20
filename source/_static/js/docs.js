@@ -1,6 +1,6 @@
 function load() {
   var request = new XMLHttpRequest();
-  request.open("GET", "https://webextensions-experiments.github.io/about/experiments/update.json", true);
+  request.open("GET", "../_static/experiments/update.json", true);
   request.onreadystatechange = function () {
     if (request.readyState != 4 || request.status != 200) {
       return;
@@ -16,7 +16,7 @@ function load() {
           link.href = update.update_link;
           link.innerText = '↓ Version ' +
             update.version + ', ' +
-            update.data.signed ? '(signed)' : '(NOT signed)';
+            (update._extra.signed ? 'signed.' : 'NOT signed.');
           div.appendChild(link);
           elm.parentNode.insertBefore(div, elm);
         }
