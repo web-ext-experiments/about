@@ -6,15 +6,15 @@ This is a list of the experiments primarily from this organisation on github_. S
 Login
 -----
 
-Access to the nsILoginInfo object.
+Access to the `nsILoginInfo` object.
 
-Status: **experimenting**
+:status: **experimenting**
+:source: https://github.com/web-ext-experiments/logins
+:AMO: https://addons.mozilla.org/en-US/firefox/addon/experimental-logins-api/
+:documentation: https://github.com/web-ext-experiments/logins/blob/master/api.md
+:addon-id and downloads: logins@experiments.addons.mozilla.org
 
-* Experiment: https://github.com/web-ext-experiments/logins
-* On AMO: https://addons.mozilla.org/en-US/firefox/addon/experimental-logins-api/
-* Documentation: https://github.com/web-ext-experiments/logins/blob/master/api.md
-
-Add-ons using it: 
+Add-ons using it:
 
 * https://github.com/andymckay/password-exporter
 
@@ -23,14 +23,14 @@ Hello world
 
 A simple example of Hello World which logs to the console.
 
-Status: **example**
-
-* Experiment: https://github.com/aswan/webext-experiment-hello/tree/master/experiment
-* Documentation: https://github.com/aswan/webext-experiment-hello 
+:status: **example**
+:source: https://github.com/aswan/webext-experiment-hello/tree/master/experiment
+:documentation: https://github.com/aswan/webext-experiment-hello
+:addon-id and downloads: simple@experiments.addons.mozilla.org
 
 Add-ons using it:
 
-* https://github.com/aswan/webext-experiment-hello/tree/master/extension 
+* https://github.com/aswan/webext-experiment-hello/tree/master/extension
 
 
 .. _github: https://github.com/web-ext-experiments/
