@@ -8,7 +8,7 @@ There are some basic principles around WebExtensions APIs as they currently stan
 * Security: the API should not expose an unacceptable risk to the end user.
 * Privacy: similar to above.
 * Performance: APIs should be async by default and focus on not causing jank, hangs or any sort of bad performance in Firefox.
-* Multi-process: all APIs need to be mult-process aware.
+* Multi-process: all APIs need to be multi-process aware.
 * Useful: APIs that land in Firefox should be useful since all APIs have a maintenance burden. 
 * High level: WebExtensions provide a known public API layer on top of Mozilla code, allowing the underlying code to change quicker and easier.
 * Alternatives: Do alternatives exist for example, WebAPIs?
