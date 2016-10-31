@@ -1,9 +1,11 @@
 Why?
 ====
 
-Experiments are a way to allow the development of new APIs for WebExtensions, they allow WebExtension APIs to be written in an another extension. They can be used to prototype APIs for landing in Firefox, or just creating APIs for use on Nightly or Developer Edition.
+WebExtensions Experiments provide a way for developers to tinker with new APIs for WebExtensions. They work by allowing WebExtensions APIs to be written in an another extension. They can be used to prototype APIs for landing in Firefox, or for use on `Nightly <https://nightly.mozilla.org/>`_ or `Developer Edition <https://developer.mozilla.org/en-US/Firefox/Developer_Edition>`_.
 
-.. note:: If you want to land an API in Firefox and are familiar with building mozilla-central_, working with Bugzilla_ and try server and other Mozilla infrastructure, then you might find that committing the code straight to mozilla-central is a better choice.
+If you want to land a WebExtensions API in Firefox and are familiar with building `mozilla-central <https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Introduction>`_, working with `Bugzilla <https://bugzilla.mozilla.org/>`_, the `try server <https://treeherder.mozilla.org/#/jobs?repo=try>`_, and other Mozilla infrastructure, then WebExtensions Experiments is for you.
+
+.. note:: If you simply want to request a WebExtensions API, please file a bug `here <https://bugzilla.mozilla.org/enter_bug.cgi?product=Toolkit&component=WebExtensions>`_. These will be triaged and processed in a `bi-weekly public meeting <https://wiki.mozilla.org/Add-ons/Contribute/Triage>`_.
 
 Overview
 --------
