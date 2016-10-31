@@ -36,7 +36,7 @@ Designing your API
 You are free to do whatever you'd like to do in an experiment, but if you eventual goal is to uplift it into Firefox then you should probably read the :ref:`uplifting` and :ref:`new` documentation.
 
 Installing the experiment
-----------------------
+-------------------------
 
 Your experiment can be installed like any other add-on, for example:
 
