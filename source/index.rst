@@ -1,14 +1,13 @@
-Welcome to WebExtension Experiments
+Welcome to WebExtensions Experiments
 ===================================
 
-This documentation covers WebExtension Experiments, a way to write new APIs for Firefox add-ons. Whilst this documentation covers WebExtension Experiments, a lot of this documentation might be relevant for writing WebExtension APIs in mozilla-central.
+WebExtensions are becoming the cross-browser standard for developing add-ons in Firefox. 
 
-Existing experiments:
+WebExtensions Experiments allow developers to write experimental WebExtensions APIs for Firefox add-ons. They can be used to prototype APIs for landing in Firefox, or for use on `Nightly <https://nightly.mozilla.org/>`_ or `Developer Edition <https://developer.mozilla.org/en-US/Firefox/Developer_Edition>`_.
 
-.. toctree::
-   :maxdepth: 2
+If you want to land a WebExtensions API in Firefox and are familiar with building `mozilla-central <https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Introduction>`_, working with `Bugzilla <https://bugzilla.mozilla.org/>`_, the `try server <https://treeherder.mozilla.org/#/jobs?repo=try>`_, and other Mozilla infrastructure, then WebExtensions Experiments is for you.
 
-   experiments/index.rst
+If you simply want to request a WebExtensions API, please file a bug `here <https://bugzilla.mozilla.org/enter_bug.cgi?product=Toolkit&component=WebExtensions>`_. These will be triaged and processed in a `bi-weekly public meeting <https://wiki.mozilla.org/Add-ons/Contribute/Triage>`_.
 
 Contents:
 
@@ -16,6 +15,7 @@ Contents:
    :maxdepth: 2
    
    why.rst
+   experiments/index.rst
    how.rst
    uplifting.rst
    new.rst
@@ -30,4 +30,3 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
-
