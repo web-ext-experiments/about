@@ -28,8 +28,9 @@ Landing in Firefox
 
 For it to land in mozilla-central a few things are going to have to happen.
 
+* It should follow the `code quality guidelines <https://wiki.mozilla.org/WebExtensions/Hacking>`_.
 * There should be mochi and xpcshell tests at 100% coverage of the API.
-* There should be some documentation on the API
+* There should be some documentation on the API.
 * There should be a review (even if its just cursory) by the following: the security team, the privacy team, a code review by the engineering team and the UX team (where relevant).
 
 For more information on what is likely to be accepted, please check out the :ref:`New` API Guidelines.
