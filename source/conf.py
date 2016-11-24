@@ -294,6 +294,7 @@ html_context = {
         '_static/js/roadmap.js'
     ],
     'css_files': [
+        'https://media.readthedocs.org/css/sphinx_rtd_theme.css',
         '_static/css/roadmap.css'
     ]
 }
