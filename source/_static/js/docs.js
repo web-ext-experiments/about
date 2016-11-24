@@ -27,4 +27,11 @@ function load() {
   request.send();
 }
 
+document.onreadystatechange = () => {
+  if (document.readyState === 'complete') {
+    if (document.getElementById('existing-experiments')) {
+      load();
+    }
+  }
+};
 load();

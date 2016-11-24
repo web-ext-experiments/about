@@ -14,6 +14,7 @@ Contents:
 
    why.rst
    experiments/index.rst
+   experiments/roadmap.rst
    how.rst
    uplifting.rst
    new.rst

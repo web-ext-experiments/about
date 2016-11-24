@@ -289,6 +289,11 @@ html_context = {
         'https://media.readthedocs.org/javascript/underscore.js',
         'https://media.readthedocs.org/javascript/doctools.js',
         'https://media.readthedocs.org/javascript/readthedocs-doc-embed.js',
-        '_static/js/docs.js'
+        'https://trello.com/1/client.js',
+        '_static/js/docs.js',
+        '_static/js/roadmap.js'
+    ],
+    'css_files': [
+        '_static/css/roadmap.css'
     ]
 }
