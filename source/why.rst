@@ -12,31 +12,32 @@ Overview
 
 Terminology:
 
-:experiment: An experiment is an extension that contains the experiment code and exposes a WebExtensions API.
-:extension: Is a WebExtension that uses the experiment extension as a dependency.
+:experiment: A bootstrapped add-on that contains code to expose a WebExtensions API.
+:extension: A WebExtension add-on that uses the experiment add-on as a dependency.
 
-It should be noted both the `experiment` and the `extension` are both extensions. One is a legacy style bootstrapped `extension` and the other is WebExtension. We'll try and use the term `experiment` to distinguish between the two.
+.. note:: The `experiment` and the `extension` are both add-ons. The `experiment` is a legacy style add-on, while the `extension` is a WebExtension.
 
-Experiments allows you to:
+Experiments allow you to:
 
 * Test and experiment with an API without having to build Firefox at all.
 * Write and distribute the API to a set of users without them having to build Firefox.
 * Then commit to (or get help committing to) mozilla-central_.
 
-Please note: before coding your Experiment you should know it's not always assumed that all Experiments will get added to Firefox, the goal is to judge each Experiment on its own merit and value.
+.. note:: We will not add all experiments to Firefox. The goal is to judge each Experiment on its own merit and value.
 
 Some key points:
 
-* Experimental APIs would be in an add-on.
-* All add-ons using the new API would be dependent upon the WebExtensions Experiments add-on.
-* The use of WebExtensions Experiments would be declared in the manifest through a permission.
-* APIs would be available in the browser namespace, and not in chrome.
-* Breaking changes could occur to the WebExtensions Experiments. But would be discouraged.
+* The API is implemented in the experiment add-on.
+* The API is available in the browser namespace - not in chrome.
+* Breaking changes could occur in the experiment, but are discouraged.
+* WebExtension add-ons using the API depend on the experiment add-on.
+* WebExtension add-ons using the API declare its use in the manifest
+  permissions.
 
 How do they work?
 ~~~~~~~~~~~~~~~~~
 
-Experiments are a bootstrapped add-on. They have a special type_ `256` that tells Firefox that they are an experiment. The experiment loads the `schema.json` into Firefox and then the APIs become available to WebExtensions.
+Experiments are a bootstrapped add-on. They have a special type_ `256` that tells Firefox that they are an experiment. Firefox loads the `schema.json` into Firefox and then the APIs become available to WebExtensions.
 
 Where do they work?
 ~~~~~~~~~~~~~~~~~~~
