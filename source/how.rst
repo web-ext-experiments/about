@@ -5,17 +5,21 @@ How to write an Experiment
 
 An experiment comprises at least three files:
 
-* `api.js`: this where the API for your code is added.
-* `schema.json`: the schema describes the methods being used.
-* `install.rdf`: is the registration of your experiment and processed when the bootstrapped add-on is initialised.
+* `api.js`: Your code to implement the API.
+* `schema.json`: Defines the API - types, methods, etc.
+* `install.rdf`: Install manifest.
 
-The namespace is the value used in the API such as "login" or "media". This is what developers will use in the API, such as "browser.login" or "chrome.api". The namespace needs to be consistent throughout multiple places of the extension. Specifically in the following:
+The namespace is the value used in the API such as “login” or “media”. This is
+what developers will use in the API, such as “browser.login” or
+“browser.media”. The namespace needs to be consistent in all places of the
+extension:
 
-* `api.js`: the top level object key must be named after the namespace.
-* `schema.json`: the permissions must be `"experiments.namespace"`.
+* `api.js`: ExtensionAPI.getAPI() must return an object with a single top-level
+  property: "namespace".
+* `schema.json`: the permissions must be `"namespace"`.
 * `install.rdf`: the id must be `"namespace@experiments.addons.mozilla.org"`.
 
-You can see an example of this in the boilerplate_ example where the namespace is "boilerplate".
+You can see an example of all this in the boilerplate_ example where the namespace is "boilerplate".
 
 Using the boilerplate
 ---------------------
@@ -40,8 +44,13 @@ Installing the experiment
 
 Your experiment can be installed like any other add-on, for example:
 
-* If you make an `.xpi` out of the add-on, it can be installed from `about:addons` > `Install Add-on From File`.
-* If you want to load the add-on for development it can be temporarily from `about:debugging` > `Load Temporary Add-on`.
+* You can zip an `.xpi`, and then install it from `about:addons` > `Install Add-on From File`.
+
+.. code-block:: bash
+
+    zip experiment.xpi api.js install.rdf schema.json
+
+* You can load the install.rdf temporarily from `about:debugging` > `Load Temporary Add-on`.
 
 Using the experiment
 --------------------
