@@ -29,7 +29,7 @@ We look at all new bugs in an attempt to spot serious bugs, regressions or other
 Bi-weekly community meeting
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-We look at a number of bugs marked with *[design-decision-needed]* every other week, currently we are doing 6 per meeting, which averages us at 5 minutes per bug. Some take longer. The goal here is to see the use case, understand what the bug is for and if it should proceed. If we are still unsure then it will get kicked "up" to the `Advisory Group http://wiki.mozilla.org/WebExtensions/AdvisoryGroup`_ for some more help and insight.
+We look at a number of bugs marked with *[design-decision-needed]* every other week, currently we are doing 6 per meeting, which averages us at 5 minutes per bug. Some take longer. The goal here is to see the use case, understand what the bug is for and if it should proceed. If we are still unsure then it will get kicked "up" to the `Advisory Group <http://wiki.mozilla.org/WebExtensions/AdvisoryGroup>`_ for some more help and insight.
 
 Advisory Group meeting
 ~~~~~~~~~~~~~~~~~~~~~
