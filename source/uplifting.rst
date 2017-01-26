@@ -13,7 +13,8 @@ Adding to github
 Tell people
 -----------
 
-The first step is to `file an issue <https://github.com/web-ext-experiments/about/issues>` against this repository. In that issue please outline:
+The first step is to `file an issue <https://github.com/web-ext-experiments/about/issues/new>`_ against this repository. In that issue please outline:
+
 * where your experiment is located
 * a quick overview of what it does
 * any bugzilla bugs that it might address
