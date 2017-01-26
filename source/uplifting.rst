@@ -10,16 +10,23 @@ Adding to github
 
 .. note:: This is optional.
 
-If you'd like to add your experiment to the main web-ext-experiments repository, you can do so by filing an issue on web-ext-experiments. We'll create a new repository and then you can send a pull request to it. This is optional.
-
 Tell people
 -----------
 
-There's a few emails and IRC channels that would like to `know about your experiment <https://wiki.mozilla.org/Add-ons#Getting_in_touch>`_.
+The first step is to `file an issue <https://github.com/web-ext-experiments/about/issues>` against this repository. In that issue please outline:
+* where your experiment is located
+* a quick overview of what it does
+* any bugzilla bugs that it might address
+* if you'd like to move your repository over to this organisation and we can create a repository for you
 
-It would be great to add it to this documentation too so please send a `pull request to this repository <https://github.com/web-ext-experiments/about>`_.
+We'll then include these in our `bi-weekly community triage meeting <https://wiki.mozilla.org/Add-ons/Contribute/Triage#Next_Meeting>`_.
 
-At this point your experiment works, that's great. The next steps are optional, but we hope they would happen.
+There's a few emails and IRC channels that would also like to `know about your experiment <https://wiki.mozilla.org/Add-ons#Getting_in_touch>`_.
+
+Updating this documentation
+---------------------------
+
+It would be great to add it to this documentation too. If you would like to, please send a `pull request to this repository <https://github.com/web-ext-experiments/about>`_.
 
 Landing in Firefox
 ------------------
