@@ -11,6 +11,22 @@ questions and answers are specific to WebExtensions experiments and should help
 you with common issues.
 
 
+How to produce log messages from an experiment api.js file?
+-----------------------------------------------------------
+On Firefox versions >= 55, the ``console`` API object is already available in
+the sandboxed environment where the ``api.js`` file is executed, on Firefox
+versions where it wasn't yet available you can define it using the ``Console.jsm``
+module:
+
+.. code-block:: javascript
+
+    const {ConsoleAPI} = Cu.import("resource://gre/modules/Console.jsm", {});
+
+    const console = new ConsoleAPI({
+      prefix: "webext-experiment-MYAPINAME",
+    });
+
+
 How do I get an URI reference to the files in my experiment?
 ------------------------------------------------------------
 You may need an URI referencing files within your extension, for example to
