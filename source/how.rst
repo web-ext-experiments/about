@@ -52,7 +52,7 @@ Your experiment can be installed like any other add-on, for example:
 
     zip experiment.xpi api.js install.rdf schema.json
 
-2. Either, you also can load the install.rdf temporarily from `about:debugging` > `Load Temporary Add-on`.
+2. You also can load the install.rdf temporarily from `about:debugging` > `Load Temporary Add-on`.
 
 
 
