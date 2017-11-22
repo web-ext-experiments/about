@@ -42,15 +42,19 @@ You are free to do whatever you'd like to do in an experiment, but if you eventu
 Installing the experiment
 -------------------------
 
+* Note: Due to the current `Extension Signing <https://wiki.mozilla.org/Add-ons/Extension_Signing>`_ policy, you will need to use the Nightly, Developer Edition or Unbranded builds and set the "xpinstall.signatures.required" preference to "false" to allow install unsigned add-ons.
+
 Your experiment can be installed like any other add-on, for example:
 
-* You can zip an `.xpi`, and then install it from `about:addons` > `Install Add-on From File`.
+1. You can zip an `.xpi`, and then install it from `about:addons` > `Install Add-on From File`.
 
 .. code-block:: bash
 
     zip experiment.xpi api.js install.rdf schema.json
 
-* You can load the install.rdf temporarily from `about:debugging` > `Load Temporary Add-on`.
+2. You also can load the install.rdf temporarily from `about:debugging` > `Load Temporary Add-on`.
+
+
 
 Using the experiment
 --------------------
