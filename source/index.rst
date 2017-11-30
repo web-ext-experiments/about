@@ -5,7 +5,7 @@ WebExtensions are a cross-browser system for developing browser add-ons.
 
 WebExtensions Experiments allow developers to write experimental WebExtensions APIs for Firefox. They can be used to prototype APIs for landing in Firefox, or for use on `Nightly <https://nightly.mozilla.org/>`_ or `Developer Edition <https://developer.mozilla.org/en-US/Firefox/Developer_Edition>`_.
 
-If you simply want to request a WebExtensions API, please `file a bug <https://bugzilla.mozilla.org/enter_bug.cgi?product=Toolkit&component=WebExtensions:%20Untriaged>`_. These will be triaged and processed in a `bi-weekly public meeting <https://wiki.mozilla.org/Add-ons/Contribute/Triage>`_.
+If you simply want to request a WebExtensions API, please `file a bug <https://bugzilla.mozilla.org/enter_bug.cgi?product=Toolkit&component=WebExtensions:%20Untriaged>`_. These will be triaged and processed in a `weekly public meeting <https://wiki.mozilla.org/WebExtensions/Triage>`_.
 
 Contents:
 
