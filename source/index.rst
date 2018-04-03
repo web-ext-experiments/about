@@ -5,21 +5,18 @@ WebExtensions are a cross-browser system for developing browser add-ons.
 
 WebExtensions Experiments allow developers to write experimental WebExtensions APIs for Firefox. They can be used to prototype APIs for landing in Firefox, or for use on `Nightly <https://nightly.mozilla.org/>`_ or `Developer Edition <https://developer.mozilla.org/en-US/Firefox/Developer_Edition>`_.
 
-If you simply want to request a WebExtensions API, please `file a bug <https://bugzilla.mozilla.org/enter_bug.cgi?product=Toolkit&component=WebExtensions:%20Untriaged>`_. These will be triaged and processed in a `weekly public meeting <https://wiki.mozilla.org/WebExtensions/Triage>`_.
+Information about
+`policies for WebExtensions APIs <https://wiki.mozilla.org/WebExtensions/policy>`_ and
+`how to request a new API <https://wiki.mozilla.org/WebExtensions/NewAPIs>`_
+are available on the Mozilla wiki.
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-   why.rst
-   experiments/index.rst
-   experiments/roadmap.rst
-   how.rst
+   basics.rst
    uplifting.rst
-   new.rst
-   policy.rst
-   schema.rst
    faq.rst
 
 This documentation lives on `github <https://github.com/web-ext-experiments/about>`_, pull requests and issues are welcome.
