@@ -21,4 +21,11 @@ points to assets packaged within the experiment (e.g. an image, an additional
 ``resource:`` protocol handler.
 
 
+Why is my experiment ``undefined`` on Beta and Release?
+-------------------------------------------------------
+
+On Nightly and Dev Edition, you can install unsigned experiments if you flip two preferences: ``xpinstall.signatures.required`` and ``extensions.legacy.enabled``.
+However unsigned experiments cannot be installed on Beta or Release regardless of any preference settings.
+
+
 If you have any more questions you can't find an answer to please `get in touch <https://wiki.mozilla.org/Add-ons#Getting_in_touch>`_.
