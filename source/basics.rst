@@ -6,7 +6,7 @@ WebExtensions Experiments provide a way for developers to tinker with new APIs f
 .. note:: If you simply want to request a WebExtensions API, please see
 `this page on the Firefox wiki <https://wiki.mozilla.org/WebExtensions/NewAPIs>`_.
 
-.. note:: If you'd like to land a WebExtensions API straight into Firefox, are familiar with building `mozilla-central <https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Introduction>`_, working with `Bugzilla <https://bugzilla.mozilla.org/>`_, the `try server <https://treeherder.mozilla.org/#/jobs?repo=try>`_, then please `file a bug <https://bugzilla.mozilla.org/enter_bug.cgi?product=Toolkit&component=WebExtensions:%20Untriaged>`_ and follow the usual Firefox development process.
+.. note:: If you'd like to land a WebExtensions API straight into Firefox, are familiar with building `mozilla-central <https://developer.mozilla.org/en-US/docs/Mozilla/Developer_guide/Introduction>`_, working with `Bugzilla <https://bugzilla.mozilla.org/>`_, the `try server <https://treeherder.mozilla.org/#/jobs?repo=try>`_, then please `file a bug <https://bugzilla.mozilla.org/enter_bug.cgi?product=WebExtensions&component=Untriaged>`_ and follow the usual Firefox development process.
 
 Overview
 --------

@@ -44,7 +44,7 @@ For it to land in mozilla-central a few things are going to have to happen.
 
 For more information on what is likely to be accepted, please check out the :ref:`New` API Guidelines.
 
-The best way to do this is by filing a bug in Bugzilla and we can start to work through the steps. File a bug under `Toolkit > WebExtensions: Experiments <https://bugzilla.mozilla.org/enter_bug.cgi?product=Toolkit&component=WebExtensions:%20Experiments>`_ and that process can be started.
+The best way to do this is by filing a bug in Bugzilla and we can start to work through the steps. File a bug under `WebExtensions > Experiments <https://bugzilla.mozilla.org/enter_bug.cgi?product=WebExtensions&component=Experiments>`_ and that process can be started.
 
 What if it doesn't land in Firefox?
 -----------------------------------
