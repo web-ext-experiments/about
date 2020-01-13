@@ -24,7 +24,7 @@ points to assets packaged within the experiment (e.g. an image, an additional
 Why is my experiment ``undefined`` on Beta and Release?
 -------------------------------------------------------
 
-On Nightly, Dev Edition or `unbranded builds <https://wiki.mozilla.org/Add-ons/Extension_Signing#Unbranded_Builds>`_, you can install unsigned experiments if you flip two preferences: ``xpinstall.signatures.required`` and ``extensions.legacy.enabled``.
+On Nightly, Dev Edition or `unbranded builds <https://wiki.mozilla.org/Add-ons/Extension_Signing#Unbranded_Builds>`_, you can install unsigned experiments if you flip two preferences: ``xpinstall.signatures.required`` and ``extensions.experiments.enabled`` (prior to Firefox 74, ``extensions.legacy.enabled``).
 However unsigned experiments cannot be installed on Beta or Release regardless of any preference settings.
 
 
